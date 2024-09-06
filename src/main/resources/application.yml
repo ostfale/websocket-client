@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: ws-client-tc
+
+server:
+  port: 21088
+  servlet:
+    context-path: /tc
+
+management:
+  server:
+    port: 8081
+  endpoints:
+    web:
+      base-path: /mgmt
+      exposure.include: health,info,env
+
+websocket:
+  baseProtocol: ws
+  baseURL: host.testcontainers.internal
+  basePort: 29080
+  wsPath: /ws/ocpp/v2/
+  allowedOrigins: '*'
+logging:
+  level:
+    de.ostfale.wsc: debug
+    root: warn

@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "websocket.baseProtocol",
+      "type": "java.lang.String",
+      "description": "Protocol used for connection. Could be ws or wss."
+    },
+    {
+      "name": "websocket.baseURL",
+      "type": "java.lang.String",
+      "description": "Description for websocket.baseURL."
+    },
+    {
+      "name": "websocket.basePort",
+      "type": "java.lang.String",
+      "description": "Base port used for connection."
+    },
+    {
+      "name": "websocket.wsPath",
+      "type": "java.lang.String",
+      "description": "The path to the connected."
+    },
+    {
+      "name": "websocket.allowedOrigins",
+      "type": "java.lang.String",
+      "description": "Define valid websocket.allowedOrigins."
+    }
+  ] }

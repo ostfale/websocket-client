@@ -1,0 +1,4 @@
+### Trigger controller to establish websocket connection to the server
+POST http://localhost:21088/tc/api/v1/action/connect
+
+###
